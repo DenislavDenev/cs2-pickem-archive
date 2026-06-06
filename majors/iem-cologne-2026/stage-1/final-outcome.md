@@ -35,14 +35,14 @@ _Scored: 2026-06-06 10:40 UTC_
 | 0-3_pick_2 | Gaimin Gladiators | CORRECT |
 | 3-0_pick_1 | GamerLegion       | MISS    |
 | 3-0_pick_2 | BetBoom Team      | CORRECT |
-| advance_1  | B8                | CORRECT |
+| advance_1  | B8                | MISS    |
 | advance_2  | MIBR              | CORRECT |
 | advance_3  | M80               | CORRECT |
 | advance_4  | BIG               | CORRECT |
 | advance_5  | Sharks Esports    | MISS    |
 | advance_6  | TYLOO             | CORRECT |
 
-**Total: 7 / 10**
+**Total: 6 / 10**
 
 ---
 
