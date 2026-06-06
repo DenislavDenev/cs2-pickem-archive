@@ -53,15 +53,16 @@ _Scored: 2026-06-06 10:40 UTC_
 | Advance Brier        | 0.163 | 0.250                 |
 | Advance Log-loss     | 0.509 | 0.693                 |
 | Advance Accuracy     | 87.5% | 50.0%                 |
-| Pick'em Hits (total) | 7     | —                     |
+| Pick'em Hits (total) | 6     | —                     |
 
 ---
 
 ## Model Misses
 
-- **NRG** (slot 0-3_pick_1): model gave 23.9% confidence -- did not hit.
+- **FlyQuest** (slot 0-3_pick_1): model gave 23.9% confidence -- did not hit.
 - **GamerLegion** (slot 3-0_pick_1): model gave 31.9% confidence -- did not hit.
 - **Sharks Esports** (slot advance_5): model gave 51.6% confidence -- did not hit.
+- **B8** (slot advance_1) -- did not hit
 
 ---
 
