@@ -1,0 +1,113 @@
+{
+  "calibration": {
+    "advance_accuracy": 0.875,
+    "advance_brier": 0.1626880846875,
+    "advance_log_loss": 0.5086364859859954,
+    "model_version": "bo1_edge_v5",
+    "pickem_0_3_hits": 1,
+    "pickem_3_0_hits": 1,
+    "pickem_advance_hits": 5,
+    "pickem_total_hits": 7
+  },
+  "scored_at": "2026-06-06T10:40:57.111974+00:00",
+  "stage_name": "Stage 1",
+  "standings": [
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "B8",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "BIG",
+      "wins": 3
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "BetBoom_Team",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "FlyQuest",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Gaimin_Gladiators",
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "GamerLegion",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "HEROIC",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Lynn_Vision_Gaming",
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "M80",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "MIBR",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "NRG",
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "SINNERS_Esports",
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Sharks_Esports",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "THUNDERdOWNUNDER",
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "TYLOO",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Team_Liquid",
+      "wins": 2
+    }
+  ],
+  "tournament_id": "iem-cologne-2026"
+}
