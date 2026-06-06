@@ -1,0 +1,75 @@
+{
+  "field": [
+    {
+      "p_champion": 0.45364,
+      "p_finalist": 0.1109,
+      "p_quarterfinalist": 0.11848,
+      "p_semifinalist": 0.31698,
+      "seed": 1,
+      "team": "Team_Vitality"
+    },
+    {
+      "p_champion": 0.09067,
+      "p_finalist": 0.16836,
+      "p_quarterfinalist": 0.37153,
+      "p_semifinalist": 0.36944,
+      "seed": 2,
+      "team": "Natus_Vincere"
+    },
+    {
+      "p_champion": 0.1886,
+      "p_finalist": 0.29117,
+      "p_quarterfinalist": 0.30301,
+      "p_semifinalist": 0.21722,
+      "seed": 3,
+      "team": "Team_Spirit"
+    },
+    {
+      "p_champion": 0.13453,
+      "p_finalist": 0.1356,
+      "p_quarterfinalist": 0.38184,
+      "p_semifinalist": 0.34803,
+      "seed": 4,
+      "team": "Team_Falcons"
+    },
+    {
+      "p_champion": 0.04826,
+      "p_finalist": 0.06341,
+      "p_quarterfinalist": 0.61816,
+      "p_semifinalist": 0.27017,
+      "seed": 5,
+      "team": "FURIA"
+    },
+    {
+      "p_champion": 0.03218,
+      "p_finalist": 0.09118,
+      "p_quarterfinalist": 0.69699,
+      "p_semifinalist": 0.17965,
+      "seed": 6,
+      "team": "The_MongolZ"
+    },
+    {
+      "p_champion": 0.0376,
+      "p_finalist": 0.10024,
+      "p_quarterfinalist": 0.62847,
+      "p_semifinalist": 0.23369,
+      "seed": 7,
+      "team": "MOUZ"
+    },
+    {
+      "p_champion": 0.01452,
+      "p_finalist": 0.03914,
+      "p_quarterfinalist": 0.88152,
+      "p_semifinalist": 0.06482,
+      "seed": 8,
+      "team": "Aurora_Gaming"
+    }
+  ],
+  "format": "single-elim, BO3 QF+SF, BO5 GF",
+  "generated_at": "2026-06-06T11:05:15.001043+00:00",
+  "is_projection": true,
+  "model_version": "bo1_edge_v5",
+  "sim_count": 100000,
+  "stage_name": "Playoffs",
+  "tournament_id": "iem-cologne-2026"
+}
