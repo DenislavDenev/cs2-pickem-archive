@@ -12,6 +12,10 @@ Attribution travels with every published artifact. Raw scraped rows are never pu
 
 Market-implied win probabilities sourced from the [Polymarket](https://polymarket.com) public Gamma API. No authentication required; data is publicly available.
 
+## Tournament rules
+
+Swiss pairing, mid-stage seeding, pickem scoring, and the playoff bracket / Bo format follow the [Valve Counter-Strike Major Supplemental Rulebook](https://github.com/ValveSoftware/counter-strike_rules_and_regs/blob/main/major-supplemental-rulebook.md).
+
 ## Not Used
 
 HLTV data is not used anywhere in this pipeline.
