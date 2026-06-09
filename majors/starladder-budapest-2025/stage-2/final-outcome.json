@@ -4,12 +4,12 @@
     "advance_brier": 0.2224188148875,
     "advance_log_loss": 0.6345519122453928,
     "model_version": "bo1_edge_v6",
-    "pickem_0_3_hits": 0,
-    "pickem_3_0_hits": 0,
-    "pickem_advance_hits": 0,
-    "pickem_total_hits": 0
+    "pickem_0_3_hits": 2,
+    "pickem_3_0_hits": 1,
+    "pickem_advance_hits": 4,
+    "pickem_total_hits": 7
   },
-  "scored_at": "2026-06-09T22:59:58.150108+00:00",
+  "scored_at": "2026-06-09T23:08:26.878660+00:00",
   "stage_name": "Stage 2",
   "standings": [
     {
