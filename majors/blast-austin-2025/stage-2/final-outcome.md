@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-06-06, with the same model that powers the current Major's live predictions (bo1_edge_v6). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-06-06, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # BLAST.tv Austin Major 2025 -- Stage 2 Final Outcome
 
-_Scored: 2026-06-09 23:08 UTC_
+_Scored: 2026-06-09 23:57 UTC_
 
 ---
 
@@ -36,13 +36,13 @@ _Scored: 2026-06-09 23:08 UTC_
 | 0-3_pick_1 | HEROIC       | MISS    |
 | 0-3_pick_2 | paiN_Gaming  | MISS    |
 | 3-0_pick_1 | Team_Falcons | MISS    |
-| 3-0_pick_2 | TYLOO        | MISS    |
-| advance_1  | B8           | MISS    |
+| 3-0_pick_2 | B8           | MISS    |
+| advance_1  | TYLOO        | MISS    |
 | advance_2  | FaZe_Clan    | CORRECT |
 | advance_3  | 3DMAX        | CORRECT |
-| advance_4  | BetBoom_Team | MISS    |
-| advance_5  | Legacy       | MISS    |
-| advance_6  | OG           | MISS    |
+| advance_4  | OG           | MISS    |
+| advance_5  | Virtus.pro   | MISS    |
+| advance_6  | BetBoom_Team | MISS    |
 
 **Total: 2 / 10**
 
@@ -52,23 +52,23 @@ _Scored: 2026-06-09 23:08 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.301 | 0.250                 |
-| Advance Log-loss     | 0.805 | 0.693                 |
-| Advance Accuracy     | 37.5% | 50.0%                 |
+| Advance Brier        | 0.292 | 0.250                 |
+| Advance Log-loss     | 0.788 | 0.693                 |
+| Advance Accuracy     | 43.8% | 50.0%                 |
 | Pick'em Hits (total) | 2     | —                     |
 
 ---
 
 ## Model Misses
 
-- **HEROIC** (slot 0-3_pick_1): model gave 26.7% confidence -- did not hit.
-- **paiN_Gaming** (slot 0-3_pick_2): model gave 23.1% confidence -- did not hit.
-- **Team_Falcons** (slot 3-0_pick_1): model gave 29.6% confidence -- did not hit.
-- **TYLOO** (slot 3-0_pick_2): model gave 19.9% confidence -- did not hit.
-- **B8** (slot advance_1): model gave 66.1% confidence -- did not hit.
-- **BetBoom_Team** (slot advance_4): model gave 54.6% confidence -- did not hit.
-- **Legacy** (slot advance_5): model gave 52.7% confidence -- did not hit.
-- **OG** (slot advance_6): model gave 51.2% confidence -- did not hit.
+- **HEROIC** (slot 0-3_pick_1): model gave 27.9% confidence -- did not hit.
+- **paiN_Gaming** (slot 0-3_pick_2): model gave 21.7% confidence -- did not hit.
+- **Team_Falcons** (slot 3-0_pick_1): model gave 29.9% confidence -- did not hit.
+- **B8** (slot 3-0_pick_2): model gave 20.7% confidence -- did not hit.
+- **TYLOO** (slot advance_1): model gave 66.6% confidence -- did not hit.
+- **OG** (slot advance_4): model gave 52.0% confidence -- did not hit.
+- **Virtus.pro** (slot advance_5): model gave 49.7% confidence -- did not hit.
+- **BetBoom_Team** (slot advance_6): model gave 46.7% confidence -- did not hit.
 
 ---
 
