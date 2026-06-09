@@ -1,0 +1,113 @@
+{
+  "calibration": {
+    "advance_accuracy": 0.3125,
+    "advance_brier": 0.28962269488750003,
+    "advance_log_loss": 0.7777949414369603,
+    "model_version": "bo1_edge_v6",
+    "pickem_0_3_hits": 0,
+    "pickem_3_0_hits": 0,
+    "pickem_advance_hits": 0,
+    "pickem_total_hits": 0
+  },
+  "scored_at": "2026-06-09T22:59:52.197328+00:00",
+  "stage_name": "Stage 1",
+  "standings": [
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "B8",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "FaZe_Clan",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Fluxo",
+      "wins": 2
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "FlyQuest",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Fnatic",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "GamerLegion",
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "Imperial_Esports",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Legacy",
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Lynn_Vision_Gaming",
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "M80",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "NRG",
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Ninjas_in_Pyjamas",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "PARIVISION",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "RED_Canids",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Rare_Atom",
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "The_Huns_Esports",
+      "wins": 1
+    }
+  ],
+  "tournament_id": "starladder-budapest-2025"
+}
