@@ -2,7 +2,7 @@
 
 # StarLadder Budapest Major 2025 -- Stage 1 Final Outcome
 
-_Scored: 2026-06-09 22:59 UTC_
+_Scored: 2026-06-09 23:08 UTC_
 
 ---
 
@@ -31,10 +31,20 @@ _Scored: 2026-06-09 22:59 UTC_
 
 ## Pick'em Scorecard
 
-| Slot | Picked Team | Result |
-| ---- | ----------- | ------ |
+| Slot       | Picked Team        | Result  |
+| ---------- | ------------------ | ------- |
+| 0-3_pick_1 | FlyQuest           | MISS    |
+| 0-3_pick_2 | RED_Canids         | MISS    |
+| 3-0_pick_1 | Legacy             | MISS    |
+| 3-0_pick_2 | FaZe_Clan          | MISS    |
+| advance_1  | PARIVISION         | CORRECT |
+| advance_2  | Rare_Atom          | MISS    |
+| advance_3  | GamerLegion        | MISS    |
+| advance_4  | Lynn_Vision_Gaming | MISS    |
+| advance_5  | The_Huns_Esports   | MISS    |
+| advance_6  | M80                | MISS    |
 
-**Total: 0 / 0**
+**Total: 1 / 10**
 
 ---
 
@@ -45,13 +55,21 @@ _Scored: 2026-06-09 22:59 UTC_
 | Advance Brier        | 0.290 | 0.250                 |
 | Advance Log-loss     | 0.778 | 0.693                 |
 | Advance Accuracy     | 31.2% | 50.0%                 |
-| Pick'em Hits (total) | 0     | —                     |
+| Pick'em Hits (total) | 1     | —                     |
 
 ---
 
 ## Model Misses
 
-_No misses._
+- **FlyQuest** (slot 0-3_pick_1): model gave 24.9% confidence -- did not hit.
+- **RED_Canids** (slot 0-3_pick_2): model gave 17.4% confidence -- did not hit.
+- **Legacy** (slot 3-0_pick_1): model gave 25.2% confidence -- did not hit.
+- **FaZe_Clan** (slot 3-0_pick_2): model gave 24.6% confidence -- did not hit.
+- **Rare_Atom** (slot advance_2): model gave 60.3% confidence -- did not hit.
+- **GamerLegion** (slot advance_3): model gave 56.6% confidence -- did not hit.
+- **Lynn_Vision_Gaming** (slot advance_4): model gave 54.6% confidence -- did not hit.
+- **The_Huns_Esports** (slot advance_5): model gave 52.3% confidence -- did not hit.
+- **M80** (slot advance_6): model gave 47.0% confidence -- did not hit.
 
 ---
 
