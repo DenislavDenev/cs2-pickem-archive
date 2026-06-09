@@ -2,9 +2,9 @@
 
 | Field         | Value |
 |---------------|-------|
-| Generated     | 2026-06-09 20:50 UTC |
+| Generated     | 2026-06-09 22:28 UTC |
 | Stage start   | 2026-06-11 00:00 UTC |
-| Model version | bo1_edge_v5 |
+| Model version | bo1_edge_v6 |
 | Simulations   | 100,000 |
 
 > This prediction will be locked at stage start (2026-06-11 00:00 UTC).
@@ -15,16 +15,16 @@
 
 | Slot      | Team          | P(Correct) | Confidence | Key Driver                                                                                                                                                                                                                                       |
 | --------- | ------------- | ---------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 3-0 #1    | Team Vitality | 39.3%      | High       | Top-tier form: 79% blended baseline (73% chemistry n_eff=81.0 x 27% resume); resume=82% (avg of 5/5 starters' career); current 5 since 2025-01-10,  raw 80% over 194 matches trending down (last 30d 60% vs older 80%); 39% 3-0 probability      |
-| 3-0 #2    | Team Falcons  | 21.9%      | High       | Highest available 3-0 ceiling at 22%; 64% blended baseline (59% chemistry n_eff=43.6 x 41% resume); resume=62% (avg of 5/5 starters' career); current 5 since 2026-04-20,  raw 54% over 195 matches                                              |
-| advance 1 | Team Spirit   | 76.3%      | High       | Strong advance lane (76%); 69% blended baseline (67% chemistry n_eff=60.0 x 33% resume); resume=67% (avg of 5/5 starters' career); current 5 since 2025-09-08,  raw 76% over 201 matches trending up (last 30d 100% vs older 74%); region europe |
-| advance 2 | Natus Vincere | 65.2%      | High       | Strong advance lane (65%); 63% blended baseline (69% chemistry n_eff=66.0 x 31% resume); resume=63% (avg of 5/5 starters' career); current 5 since 2025-07-08,  raw 65% over 196 matches trending up (last 30d 83% vs older 61%); region europe  |
-| advance 3 | FURIA         | 60.6%      | Medium     | Strong advance lane (61%); 60% blended baseline (70% chemistry n_eff=68.7 x 30% resume); resume=59% (avg of 5/5 starters' career); current 5 since 2025-04-22,  raw 58% over 231 matches; region americas                                        |
-| advance 4 | The MongolZ   | 51.7%      | Medium     | Strong advance lane (52%); 56% from player resume only (no team chemistry yet; 7/5 starters with data); current 5 since 2025-12-31; region asia                                                                                                  |
-| advance 5 | MOUZ          | 51.6%      | Medium     | Strong advance lane (52%); 62% from player resume only (no team chemistry yet; 5/5 starters with data); current 5 since 2026-04-18; region europe                                                                                                |
+| 3-0 #1    | Team Vitality | 46.9%      | High       | Top-tier form: 79% blended baseline (73% chemistry n_eff=81.0 x 27% resume); resume=82% (avg of 5/5 starters' career); current 5 since 2025-01-10,  raw 80% over 194 matches trending down (last 30d 60% vs older 80%); 47% 3-0 probability      |
+| 3-0 #2    | Team Falcons  | 25.0%      | High       | Highest available 3-0 ceiling at 25%; 64% blended baseline (59% chemistry n_eff=43.6 x 41% resume); resume=62% (avg of 5/5 starters' career); current 5 since 2026-04-20,  raw 54% over 195 matches                                              |
+| advance 1 | Team Spirit   | 82.5%      | High       | Strong advance lane (82%); 69% blended baseline (67% chemistry n_eff=60.0 x 33% resume); resume=67% (avg of 5/5 starters' career); current 5 since 2025-09-08,  raw 76% over 201 matches trending up (last 30d 100% vs older 74%); region europe |
+| advance 2 | Natus Vincere | 71.0%      | High       | Strong advance lane (71%); 63% blended baseline (69% chemistry n_eff=66.0 x 31% resume); resume=63% (avg of 5/5 starters' career); current 5 since 2025-07-08,  raw 65% over 196 matches trending up (last 30d 83% vs older 61%); region europe  |
+| advance 3 | FURIA         | 62.9%      | Medium     | Strong advance lane (63%); 60% blended baseline (70% chemistry n_eff=68.7 x 30% resume); resume=59% (avg of 5/5 starters' career); current 5 since 2025-04-22,  raw 58% over 231 matches; region americas                                        |
+| advance 4 | The MongolZ   | 52.5%      | Medium     | Strong advance lane (53%); 56% from player resume only (no team chemistry yet; 7/5 starters with data); current 5 since 2025-12-31; region asia                                                                                                  |
+| advance 5 | MOUZ          | 52.4%      | Medium     | Strong advance lane (52%); 62% from player resume only (no team chemistry yet; 5/5 starters with data); current 5 since 2026-04-18; region europe                                                                                                |
 | advance 6 | Aurora Gaming | 49.8%      | Low        | Strong advance lane (50%); 53% blended baseline (59% chemistry n_eff=42.8 x 41% resume); resume=53% (avg of 5/5 starters' career); current 5 since 2025-12-27,  raw 59% over 326 matches; region europe                                          |
-| 0-3 #1    | Monte         | 26.4%      | Medium     | Highest available 0-3 floor at 26%; 48% blended baseline (22% chemistry n_eff=8.7 x 78% resume); resume=47% (avg of 5/5 starters' career); current 5 since 2026-02-10,  raw 59% over 355 matches                                                 |
-| 0-3 #2    | B8            | 20.2%      | Medium     | Highest available 0-3 floor at 20%; 46% blended baseline (54% chemistry n_eff=35.4 x 46% resume); resume=41% (avg of 5/5 starters' career); current 5 since 2026-02-01,  raw 61% over 331 matches                                                |
+| 0-3 #1    | Monte         | 30.7%      | High       | Highest available 0-3 floor at 31%; 48% blended baseline (22% chemistry n_eff=8.7 x 78% resume); resume=47% (avg of 5/5 starters' career); current 5 since 2026-02-10,  raw 59% over 355 matches                                                 |
+| 0-3 #2    | B8            | 21.4%      | Medium     | Highest available 0-3 floor at 21%; 46% blended baseline (54% chemistry n_eff=35.4 x 46% resume); resume=41% (avg of 5/5 starters' career); current 5 since 2026-02-01,  raw 61% over 331 matches                                                |
 
 ---
 
@@ -32,22 +32,22 @@
 
 | Team          | P(3-0) | P(Advance) | P(0-3) | Edge Score |
 | ------------- | ------ | ---------- | ------ | ---------- |
-| Team_Vitality | 39.3%  | 90.6%      | 1.4%   | 0.889      |
-| Team_Spirit   | 18.4%  | 76.3%      | 4.5%   | 0.779      |
-| Natus_Vincere | 12.6%  | 65.2%      | 7.9%   | 0.694      |
-| Team_Falcons  | 21.9%  | 67.5%      | 5.2%   | 0.686      |
-| FURIA         | 16.9%  | 60.6%      | 6.9%   | 0.571      |
-| MOUZ          | 12.1%  | 51.6%      | 10.2%  | 0.535      |
-| The_MongolZ   | 12.8%  | 51.7%      | 10.0%  | 0.531      |
-| FUT_Esports   | 7.2%   | 43.2%      | 16.3%  | 0.515      |
-| Aurora_Gaming | 12.0%  | 49.8%      | 10.0%  | 0.485      |
-| G2_Esports    | 5.2%   | 35.6%      | 19.2%  | 0.476      |
-| PARIVISION    | 8.3%   | 40.6%      | 16.2%  | 0.467      |
-| Legacy        | 7.9%   | 38.8%      | 16.1%  | 0.460      |
-| 9z_Team       | 9.9%   | 41.4%      | 12.2%  | 0.423      |
-| BetBoom_Team  | 6.8%   | 35.2%      | 17.4%  | 0.422      |
-| B8            | 5.3%   | 30.6%      | 20.2%  | 0.388      |
-| Monte         | 3.5%   | 21.3%      | 26.4%  | 0.324      |
+| Team_Vitality | 46.9%  | 95.0%      | 0.6%   | 0.889      |
+| Team_Spirit   | 18.7%  | 82.5%      | 3.0%   | 0.779      |
+| Natus_Vincere | 13.1%  | 71.0%      | 6.1%   | 0.694      |
+| Team_Falcons  | 25.0%  | 72.8%      | 3.9%   | 0.686      |
+| FURIA         | 17.2%  | 62.9%      | 5.7%   | 0.571      |
+| MOUZ          | 11.5%  | 52.4%      | 9.0%   | 0.535      |
+| The_MongolZ   | 12.6%  | 52.5%      | 9.0%   | 0.531      |
+| FUT_Esports   | 5.6%   | 41.3%      | 17.1%  | 0.515      |
+| Aurora_Gaming | 11.3%  | 49.8%      | 9.1%   | 0.485      |
+| G2_Esports    | 4.2%   | 33.6%      | 19.8%  | 0.476      |
+| PARIVISION    | 7.8%   | 39.4%      | 16.1%  | 0.467      |
+| Legacy        | 6.4%   | 35.9%      | 17.1%  | 0.460      |
+| 9z_Team       | 8.3%   | 37.8%      | 12.6%  | 0.423      |
+| BetBoom_Team  | 5.1%   | 30.9%      | 18.7%  | 0.422      |
+| B8            | 4.1%   | 26.6%      | 21.4%  | 0.388      |
+| Monte         | 2.1%   | 15.6%      | 30.7%  | 0.324      |
 
 ---
 
