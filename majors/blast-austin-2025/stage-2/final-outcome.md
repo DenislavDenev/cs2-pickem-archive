@@ -2,7 +2,7 @@
 
 # BLAST.tv Austin Major 2025 -- Stage 2 Final Outcome
 
-_Scored: 2026-06-09 22:59 UTC_
+_Scored: 2026-06-09 23:08 UTC_
 
 ---
 
@@ -31,10 +31,20 @@ _Scored: 2026-06-09 22:59 UTC_
 
 ## Pick'em Scorecard
 
-| Slot | Picked Team | Result |
-| ---- | ----------- | ------ |
+| Slot       | Picked Team  | Result  |
+| ---------- | ------------ | ------- |
+| 0-3_pick_1 | HEROIC       | MISS    |
+| 0-3_pick_2 | paiN_Gaming  | MISS    |
+| 3-0_pick_1 | Team_Falcons | MISS    |
+| 3-0_pick_2 | TYLOO        | MISS    |
+| advance_1  | B8           | MISS    |
+| advance_2  | FaZe_Clan    | CORRECT |
+| advance_3  | 3DMAX        | CORRECT |
+| advance_4  | BetBoom_Team | MISS    |
+| advance_5  | Legacy       | MISS    |
+| advance_6  | OG           | MISS    |
 
-**Total: 0 / 0**
+**Total: 2 / 10**
 
 ---
 
@@ -45,13 +55,20 @@ _Scored: 2026-06-09 22:59 UTC_
 | Advance Brier        | 0.301 | 0.250                 |
 | Advance Log-loss     | 0.805 | 0.693                 |
 | Advance Accuracy     | 37.5% | 50.0%                 |
-| Pick'em Hits (total) | 0     | —                     |
+| Pick'em Hits (total) | 2     | —                     |
 
 ---
 
 ## Model Misses
 
-_No misses._
+- **HEROIC** (slot 0-3_pick_1): model gave 26.7% confidence -- did not hit.
+- **paiN_Gaming** (slot 0-3_pick_2): model gave 23.1% confidence -- did not hit.
+- **Team_Falcons** (slot 3-0_pick_1): model gave 29.6% confidence -- did not hit.
+- **TYLOO** (slot 3-0_pick_2): model gave 19.9% confidence -- did not hit.
+- **B8** (slot advance_1): model gave 66.1% confidence -- did not hit.
+- **BetBoom_Team** (slot advance_4): model gave 54.6% confidence -- did not hit.
+- **Legacy** (slot advance_5): model gave 52.7% confidence -- did not hit.
+- **OG** (slot advance_6): model gave 51.2% confidence -- did not hit.
 
 ---
 
