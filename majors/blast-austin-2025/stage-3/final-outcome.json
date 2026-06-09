@@ -5,11 +5,11 @@
     "advance_log_loss": 0.5947436937459651,
     "model_version": "bo1_edge_v6",
     "pickem_0_3_hits": 0,
-    "pickem_3_0_hits": 0,
-    "pickem_advance_hits": 0,
-    "pickem_total_hits": 0
+    "pickem_3_0_hits": 1,
+    "pickem_advance_hits": 3,
+    "pickem_total_hits": 4
   },
-  "scored_at": "2026-06-09T22:59:46.551061+00:00",
+  "scored_at": "2026-06-09T23:08:15.763149+00:00",
   "stage_name": "Stage 3",
   "standings": [
     {
