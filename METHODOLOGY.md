@@ -8,7 +8,12 @@ Predict the 10-slot CS2 Major Swiss stage pick'em: 2 teams to go 3-0, 6 to advan
 
 ## Model Version
 
-Current: `bo1_edge_v5` (May 2026)
+Current: `bo1_edge_v6.1` (June 2026)
+
+- **v6** (2026-06-10): sigmoid scale 2.197 → 3.0, justified by a
+  192-observation reliability study on resolved results (see Calibration).
+- **v6.1** (2026-06-10): punch-up adjustment — a signed post-blend edge
+  shift from each team's record against stronger opposition (see below).
 
 ---
 
@@ -25,6 +30,16 @@ Current: `bo1_edge_v5` (May 2026)
 | Stage entry tier | 0.05 | Stage entry (1/2/3) | Stage 3 invites = strongest seed |
 | Momentum | 0.05 | Last 30d vs older form | Trend bucket (improving/stable/declining) |
 | Region | 0.00 | Removed in v4 | Elo encodes strength-of-schedule |
+
+**Punch-up adjustment (v6.1, applied after the blend):** `edge += 0.10 × residual`,
+where the residual is the recency-weighted mean of (actual − Elo-expected)
+outcome against opposition rated 25+ Elo higher, over the trailing 540 days
+(180-day half-life, minimum 8 effective matches, else no adjustment).
+Derived from the full CS2-era match graph (~40k matches), not just Major
+history: it credits teams that systematically beat their rating against
+stronger opposition and docks teams that fold upward. Validated
+point-in-time on 8 modern-format stages: advance Brier 0.2172 → 0.2141,
+improvement on 6 of 8 stages.
 
 ---
 
@@ -103,3 +118,4 @@ Calibration data accumulates across Majors to enable future grid-search weight t
 | 2026-05-30 | Screenshots manual-only | Automation never writes to `screenshots/` |
 | 2026-05-30 | Option A discovery | Curated page slugs instead of open-ended crawl; fail-closed |
 | 2026-06-10 | v6: sigmoid scale 2.197 → 3.0 | Reliability study on 192 resolved results showed compressed probabilities; Brier-optimal interior minimum at 3.0 on 3-stage-format Majors. Slot picks unaffected (ranking is scale-invariant) |
+| 2026-06-10 | v6.1: punch-up adjustment (w=0.10) | Elo residual vs stronger opposition from the full match graph; Brier 0.2172 → 0.2141 on 8 stages, 6/8 improved. Same study rejected a BO3/BO1 format split and a recent-form resume blend (both flat or worse) |
