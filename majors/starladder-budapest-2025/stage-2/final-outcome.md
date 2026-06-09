@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-28, with the same model that powers the current Major's live predictions (bo1_edge_v6). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-28, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # StarLadder Budapest Major 2025 -- Stage 2 Final Outcome
 
-_Scored: 2026-06-09 23:08 UTC_
+_Scored: 2026-06-09 23:57 UTC_
 
 ---
 
@@ -39,12 +39,12 @@ _Scored: 2026-06-09 23:08 UTC_
 | 3-0_pick_2 | Aurora_Gaming | MISS    |
 | advance_1  | Team_Liquid   | CORRECT |
 | advance_2  | FaZe_Clan     | MISS    |
-| advance_3  | M80           | MISS    |
-| advance_4  | PARIVISION    | CORRECT |
-| advance_5  | 3DMAX         | CORRECT |
-| advance_6  | B8            | CORRECT |
+| advance_3  | PARIVISION    | CORRECT |
+| advance_4  | 3DMAX         | CORRECT |
+| advance_5  | M80           | MISS    |
+| advance_6  | Astralis      | MISS    |
 
-**Total: 7 / 10**
+**Total: 6 / 10**
 
 ---
 
@@ -52,18 +52,19 @@ _Scored: 2026-06-09 23:08 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.222 | 0.250                 |
-| Advance Log-loss     | 0.635 | 0.693                 |
-| Advance Accuracy     | 68.8% | 50.0%                 |
-| Pick'em Hits (total) | 7     | —                     |
+| Advance Brier        | 0.225 | 0.250                 |
+| Advance Log-loss     | 0.639 | 0.693                 |
+| Advance Accuracy     | 62.5% | 50.0%                 |
+| Pick'em Hits (total) | 6     | —                     |
 
 ---
 
 ## Model Misses
 
-- **Aurora_Gaming** (slot 3-0_pick_2): model gave 22.9% confidence -- did not hit.
-- **FaZe_Clan** (slot advance_2): model gave 56.3% confidence -- did not hit.
-- **M80** (slot advance_3): model gave 55.3% confidence -- did not hit.
+- **Aurora_Gaming** (slot 3-0_pick_2): model gave 24.2% confidence -- did not hit.
+- **FaZe_Clan** (slot advance_2): model gave 58.4% confidence -- did not hit.
+- **M80** (slot advance_5): model gave 54.2% confidence -- did not hit.
+- **Astralis** (slot advance_6): model gave 51.7% confidence -- did not hit.
 
 ---
 
