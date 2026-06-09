@@ -1,0 +1,113 @@
+{
+  "calibration": {
+    "advance_accuracy": 0.5625,
+    "advance_brier": 0.2566639426125,
+    "advance_log_loss": 0.7098591546969558,
+    "model_version": "bo1_edge_v6",
+    "pickem_0_3_hits": 0,
+    "pickem_3_0_hits": 0,
+    "pickem_advance_hits": 0,
+    "pickem_total_hits": 0
+  },
+  "scored_at": "2026-06-09T22:59:34.103812+00:00",
+  "stage_name": "Stage 1",
+  "standings": [
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "B8",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "BetBoom_Team",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Chinggis_Warriors",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Complexity",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Fluxo",
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "FlyQuest",
+      "wins": 2
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "HEROIC",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Imperial_Esports",
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "Legacy",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "Lynn_Vision_Gaming",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Metizport",
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "NRG",
+      "wins": 2
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Nemiga_Gaming",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "OG",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "TYLOO",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Wildcard",
+      "wins": 2
+    }
+  ],
+  "tournament_id": "blast-austin-2025"
+}
