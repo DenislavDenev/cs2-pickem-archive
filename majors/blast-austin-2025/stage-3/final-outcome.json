@@ -1,0 +1,113 @@
+{
+  "calibration": {
+    "advance_accuracy": 0.6875,
+    "advance_brier": 0.20540989177500002,
+    "advance_log_loss": 0.5947436937459651,
+    "model_version": "bo1_edge_v6",
+    "pickem_0_3_hits": 0,
+    "pickem_3_0_hits": 0,
+    "pickem_advance_hits": 0,
+    "pickem_total_hits": 0
+  },
+  "scored_at": "2026-06-09T22:59:46.551061+00:00",
+  "stage_name": "Stage 3",
+  "standings": [
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "3DMAX",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Aurora_Gaming",
+      "wins": 1
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "FURIA",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "FaZe_Clan",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "G2_Esports",
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Legacy",
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Lynn_Vision_Gaming",
+      "wins": 1
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "MOUZ",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Natus_Vincere",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Nemiga_Gaming",
+      "wins": 0
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "Team_Liquid",
+      "wins": 0
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "Team_Spirit",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Team_Vitality",
+      "wins": 3
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "The_MongolZ",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Virtus.pro",
+      "wins": 2
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "paiN_Gaming",
+      "wins": 3
+    }
+  ],
+  "tournament_id": "blast-austin-2025"
+}
