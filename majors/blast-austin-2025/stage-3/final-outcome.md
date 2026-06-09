@@ -2,7 +2,7 @@
 
 # BLAST.tv Austin Major 2025 -- Stage 3 Final Outcome
 
-_Scored: 2026-06-09 22:59 UTC_
+_Scored: 2026-06-09 23:08 UTC_
 
 ---
 
@@ -31,10 +31,20 @@ _Scored: 2026-06-09 22:59 UTC_
 
 ## Pick'em Scorecard
 
-| Slot | Picked Team | Result |
-| ---- | ----------- | ------ |
+| Slot       | Picked Team        | Result  |
+| ---------- | ------------------ | ------- |
+| 0-3_pick_1 | paiN_Gaming        | MISS    |
+| 0-3_pick_2 | Lynn_Vision_Gaming | MISS    |
+| 3-0_pick_1 | Team_Vitality      | MISS    |
+| 3-0_pick_2 | Team_Spirit        | CORRECT |
+| advance_1  | MOUZ               | CORRECT |
+| advance_2  | The_MongolZ        | CORRECT |
+| advance_3  | Natus_Vincere      | CORRECT |
+| advance_4  | G2_Esports         | MISS    |
+| advance_5  | Aurora_Gaming      | MISS    |
+| advance_6  | Team_Liquid        | MISS    |
 
-**Total: 0 / 0**
+**Total: 4 / 10**
 
 ---
 
@@ -45,13 +55,18 @@ _Scored: 2026-06-09 22:59 UTC_
 | Advance Brier        | 0.205 | 0.250                 |
 | Advance Log-loss     | 0.595 | 0.693                 |
 | Advance Accuracy     | 68.8% | 50.0%                 |
-| Pick'em Hits (total) | 0     | —                     |
+| Pick'em Hits (total) | 4     | —                     |
 
 ---
 
 ## Model Misses
 
-_No misses._
+- **paiN_Gaming** (slot 0-3_pick_1): model gave 28.7% confidence -- did not hit.
+- **Lynn_Vision_Gaming** (slot 0-3_pick_2): model gave 27.7% confidence -- did not hit.
+- **Team_Vitality** (slot 3-0_pick_1): model gave 51.7% confidence -- did not hit.
+- **G2_Esports** (slot advance_4): model gave 66.1% confidence -- did not hit.
+- **Aurora_Gaming** (slot advance_5): model gave 52.0% confidence -- did not hit.
+- **Team_Liquid** (slot advance_6): model gave 47.7% confidence -- did not hit.
 
 ---
 
