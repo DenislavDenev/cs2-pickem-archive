@@ -35,7 +35,7 @@ Current: `bo1_edge_v5` (May 2026)
 - Round 1: seeded by edge score (1v9, 2v10, ..., 8v16)
 - Rounds 2-5: paired within same-record Buchholz buckets; rematch avoidance
 - Match format: BO1 for rounds 1-2; BO3 when match decides advance or elimination
-- Win probability per map: `sigmoid(2.197 × (edge_a − edge_b))` (calibrated so 0.5 edge gap → 75% win rate)
+- Win probability per map: `sigmoid(3.0 × (edge_a − edge_b))` (v6: calibrated against 192 resolved team-stage results so 0.5 edge gap → ~82% win rate; v5 used 2.197 → 75%, which a reliability study showed was too compressed — teams predicted 65–80% to advance did so 84% of the time)
 - BO3 probability: `P² × (3 − 2P)`
 - H2H blending: if ≥ 3 historical current-roster matches exist, blends H2H win rate with sigmoid prior (weight = √n / (√n + 5))
 - Simulations: 10,000–20,000 iterations per run
@@ -102,3 +102,4 @@ Calibration data accumulates across Majors to enable future grid-search weight t
 | 2026-05-30 | Final outcome write-once | Immutable record after resolution |
 | 2026-05-30 | Screenshots manual-only | Automation never writes to `screenshots/` |
 | 2026-05-30 | Option A discovery | Curated page slugs instead of open-ended crawl; fail-closed |
+| 2026-06-10 | v6: sigmoid scale 2.197 → 3.0 | Reliability study on 192 resolved results showed compressed probabilities; Brier-optimal interior minimum at 3.0 on 3-stage-format Majors. Slot picks unaffected (ranking is scale-invariant) |
