@@ -2,7 +2,7 @@
 
 # StarLadder Budapest Major 2025 -- Stage 3 Final Outcome
 
-_Scored: 2026-06-09 23:00 UTC_
+_Scored: 2026-06-09 23:08 UTC_
 
 ---
 
@@ -31,10 +31,20 @@ _Scored: 2026-06-09 23:00 UTC_
 
 ## Pick'em Scorecard
 
-| Slot | Picked Team | Result |
-| ---- | ----------- | ------ |
+| Slot       | Picked Team      | Result  |
+| ---------- | ---------------- | ------- |
+| 0-3_pick_1 | paiN_Gaming      | MISS    |
+| 0-3_pick_2 | Imperial_Esports | MISS    |
+| 3-0_pick_1 | Team_Vitality    | MISS    |
+| 3-0_pick_2 | FURIA            | CORRECT |
+| advance_1  | MOUZ             | CORRECT |
+| advance_2  | Team_Falcons     | CORRECT |
+| advance_3  | Team_Spirit      | MISS    |
+| advance_4  | Natus_Vincere    | CORRECT |
+| advance_5  | G2_Esports       | MISS    |
+| advance_6  | The_MongolZ      | CORRECT |
 
-**Total: 0 / 0**
+**Total: 5 / 10**
 
 ---
 
@@ -45,13 +55,17 @@ _Scored: 2026-06-09 23:00 UTC_
 | Advance Brier        | 0.123 | 0.250                 |
 | Advance Log-loss     | 0.410 | 0.693                 |
 | Advance Accuracy     | 87.5% | 50.0%                 |
-| Pick'em Hits (total) | 0     | —                     |
+| Pick'em Hits (total) | 5     | —                     |
 
 ---
 
 ## Model Misses
 
-_No misses._
+- **paiN_Gaming** (slot 0-3_pick_1): model gave 28.3% confidence -- did not hit.
+- **Imperial_Esports** (slot 0-3_pick_2): model gave 27.5% confidence -- did not hit.
+- **Team_Vitality** (slot 3-0_pick_1): model gave 43.0% confidence -- did not hit.
+- **Team_Spirit** (slot advance_3): model gave 75.6% confidence -- did not hit.
+- **G2_Esports** (slot advance_5): model gave 57.3% confidence -- did not hit.
 
 ---
 
