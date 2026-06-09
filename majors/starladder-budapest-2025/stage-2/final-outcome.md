@@ -2,7 +2,7 @@
 
 # StarLadder Budapest Major 2025 -- Stage 2 Final Outcome
 
-_Scored: 2026-06-09 22:59 UTC_
+_Scored: 2026-06-09 23:08 UTC_
 
 ---
 
@@ -31,10 +31,20 @@ _Scored: 2026-06-09 22:59 UTC_
 
 ## Pick'em Scorecard
 
-| Slot | Picked Team | Result |
-| ---- | ----------- | ------ |
+| Slot       | Picked Team   | Result  |
+| ---------- | ------------- | ------- |
+| 0-3_pick_1 | MIBR          | CORRECT |
+| 0-3_pick_2 | FlyQuest      | CORRECT |
+| 3-0_pick_1 | Natus_Vincere | CORRECT |
+| 3-0_pick_2 | Aurora_Gaming | MISS    |
+| advance_1  | Team_Liquid   | CORRECT |
+| advance_2  | FaZe_Clan     | MISS    |
+| advance_3  | M80           | MISS    |
+| advance_4  | PARIVISION    | CORRECT |
+| advance_5  | 3DMAX         | CORRECT |
+| advance_6  | B8            | CORRECT |
 
-**Total: 0 / 0**
+**Total: 7 / 10**
 
 ---
 
@@ -45,13 +55,15 @@ _Scored: 2026-06-09 22:59 UTC_
 | Advance Brier        | 0.222 | 0.250                 |
 | Advance Log-loss     | 0.635 | 0.693                 |
 | Advance Accuracy     | 68.8% | 50.0%                 |
-| Pick'em Hits (total) | 0     | —                     |
+| Pick'em Hits (total) | 7     | —                     |
 
 ---
 
 ## Model Misses
 
-_No misses._
+- **Aurora_Gaming** (slot 3-0_pick_2): model gave 22.9% confidence -- did not hit.
+- **FaZe_Clan** (slot advance_2): model gave 56.3% confidence -- did not hit.
+- **M80** (slot advance_3): model gave 55.3% confidence -- did not hit.
 
 ---
 
