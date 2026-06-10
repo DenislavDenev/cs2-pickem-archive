@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-12-03, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-12-03, with the same model that powers the current Major's live predictions (bo1_edge_v7). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # StarLadder Budapest Major 2025 -- Stage 3 Final Outcome
 
-_Scored: 2026-06-09 23:57 UTC_
+_Scored: 2026-06-10 12:29 UTC_
 
 ---
 
@@ -31,18 +31,18 @@ _Scored: 2026-06-09 23:57 UTC_
 
 ## Pick'em Scorecard
 
-| Slot       | Picked Team      | Result  |
-| ---------- | ---------------- | ------- |
-| 0-3_pick_1 | Imperial_Esports | MISS    |
-| 0-3_pick_2 | paiN_Gaming      | MISS    |
-| 3-0_pick_1 | Team_Vitality    | MISS    |
-| 3-0_pick_2 | FURIA            | CORRECT |
-| advance_1  | MOUZ             | CORRECT |
-| advance_2  | Team_Falcons     | CORRECT |
-| advance_3  | Team_Spirit      | MISS    |
-| advance_4  | Natus_Vincere    | CORRECT |
-| advance_5  | G2_Esports       | MISS    |
-| advance_6  | The_MongolZ      | CORRECT |
+| Slot       | Picked Team   | Result  |
+| ---------- | ------------- | ------- |
+| 0-3_pick_1 | paiN_Gaming   | MISS    |
+| 0-3_pick_2 | Passion_UA    | MISS    |
+| 3-0_pick_1 | Team_Vitality | MISS    |
+| 3-0_pick_2 | FURIA         | CORRECT |
+| advance_1  | MOUZ          | CORRECT |
+| advance_2  | Team_Spirit   | MISS    |
+| advance_3  | Team_Falcons  | CORRECT |
+| advance_4  | Natus_Vincere | CORRECT |
+| advance_5  | The_MongolZ   | CORRECT |
+| advance_6  | B8            | MISS    |
 
 **Total: 5 / 10**
 
@@ -52,8 +52,8 @@ _Scored: 2026-06-09 23:57 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.122 | 0.250                 |
-| Advance Log-loss     | 0.405 | 0.693                 |
+| Advance Brier        | 0.123 | 0.250                 |
+| Advance Log-loss     | 0.411 | 0.693                 |
 | Advance Accuracy     | 87.5% | 50.0%                 |
 | Pick'em Hits (total) | 5     | —                     |
 
@@ -61,11 +61,11 @@ _Scored: 2026-06-09 23:57 UTC_
 
 ## Model Misses
 
-- **Imperial_Esports** (slot 0-3_pick_1): model gave 30.7% confidence -- did not hit.
-- **paiN_Gaming** (slot 0-3_pick_2): model gave 29.6% confidence -- did not hit.
-- **Team_Vitality** (slot 3-0_pick_1): model gave 43.3% confidence -- did not hit.
-- **Team_Spirit** (slot advance_3): model gave 75.7% confidence -- did not hit.
-- **G2_Esports** (slot advance_5): model gave 58.1% confidence -- did not hit.
+- **paiN_Gaming** (slot 0-3_pick_1): model gave 30.0% confidence -- did not hit.
+- **Passion_UA** (slot 0-3_pick_2): model gave 26.8% confidence -- did not hit.
+- **Team_Vitality** (slot 3-0_pick_1): model gave 46.5% confidence -- did not hit.
+- **Team_Spirit** (slot advance_2): model gave 75.1% confidence -- did not hit.
+- **B8** (slot advance_6): model gave 50.9% confidence -- did not hit.
 
 ---
 
