@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-28, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-28, with the same model that powers the current Major's live predictions (bo1_edge_v7). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # StarLadder Budapest Major 2025 -- Stage 2 Final Outcome
 
-_Scored: 2026-06-09 23:57 UTC_
+_Scored: 2026-06-10 12:29 UTC_
 
 ---
 
@@ -31,18 +31,18 @@ _Scored: 2026-06-09 23:57 UTC_
 
 ## Pick'em Scorecard
 
-| Slot       | Picked Team   | Result  |
-| ---------- | ------------- | ------- |
-| 0-3_pick_1 | MIBR          | CORRECT |
-| 0-3_pick_2 | FlyQuest      | CORRECT |
-| 3-0_pick_1 | Natus_Vincere | CORRECT |
-| 3-0_pick_2 | Aurora_Gaming | MISS    |
-| advance_1  | Team_Liquid   | CORRECT |
-| advance_2  | FaZe_Clan     | MISS    |
-| advance_3  | PARIVISION    | CORRECT |
-| advance_4  | 3DMAX         | CORRECT |
-| advance_5  | M80           | MISS    |
-| advance_6  | Astralis      | MISS    |
+| Slot       | Picked Team      | Result  |
+| ---------- | ---------------- | ------- |
+| 0-3_pick_1 | Imperial_Esports | MISS    |
+| 0-3_pick_2 | MIBR             | CORRECT |
+| 3-0_pick_1 | Natus_Vincere    | CORRECT |
+| 3-0_pick_2 | Aurora_Gaming    | MISS    |
+| advance_1  | Team_Liquid      | CORRECT |
+| advance_2  | FaZe_Clan        | MISS    |
+| advance_3  | M80              | MISS    |
+| advance_4  | B8               | CORRECT |
+| advance_5  | 3DMAX            | CORRECT |
+| advance_6  | PARIVISION       | CORRECT |
 
 **Total: 6 / 10**
 
@@ -52,19 +52,19 @@ _Scored: 2026-06-09 23:57 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.225 | 0.250                 |
-| Advance Log-loss     | 0.639 | 0.693                 |
-| Advance Accuracy     | 62.5% | 50.0%                 |
+| Advance Brier        | 0.222 | 0.250                 |
+| Advance Log-loss     | 0.634 | 0.693                 |
+| Advance Accuracy     | 75.0% | 50.0%                 |
 | Pick'em Hits (total) | 6     | —                     |
 
 ---
 
 ## Model Misses
 
-- **Aurora_Gaming** (slot 3-0_pick_2): model gave 24.2% confidence -- did not hit.
-- **FaZe_Clan** (slot advance_2): model gave 58.4% confidence -- did not hit.
-- **M80** (slot advance_5): model gave 54.2% confidence -- did not hit.
-- **Astralis** (slot advance_6): model gave 51.7% confidence -- did not hit.
+- **Imperial_Esports** (slot 0-3_pick_1): model gave 21.3% confidence -- did not hit.
+- **Aurora_Gaming** (slot 3-0_pick_2): model gave 18.5% confidence -- did not hit.
+- **FaZe_Clan** (slot advance_2): model gave 61.6% confidence -- did not hit.
+- **M80** (slot advance_3): model gave 60.5% confidence -- did not hit.
 
 ---
 
