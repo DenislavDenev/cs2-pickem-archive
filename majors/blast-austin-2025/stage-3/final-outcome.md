@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-06-11, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-06-11, with the same model that powers the current Major's live predictions (bo1_edge_v7). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # BLAST.tv Austin Major 2025 -- Stage 3 Final Outcome
 
-_Scored: 2026-06-09 23:57 UTC_
+_Scored: 2026-06-10 12:29 UTC_
 
 ---
 
@@ -41,10 +41,10 @@ _Scored: 2026-06-09 23:57 UTC_
 | advance_2  | Natus_Vincere | CORRECT |
 | advance_3  | G2_Esports    | MISS    |
 | advance_4  | The_MongolZ   | CORRECT |
-| advance_5  | Aurora_Gaming | MISS    |
-| advance_6  | Team_Liquid   | MISS    |
+| advance_5  | FaZe_Clan     | CORRECT |
+| advance_6  | Legacy        | MISS    |
 
-**Total: 4 / 10**
+**Total: 5 / 10**
 
 ---
 
@@ -52,21 +52,20 @@ _Scored: 2026-06-09 23:57 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.209 | 0.250                 |
-| Advance Log-loss     | 0.607 | 0.693                 |
-| Advance Accuracy     | 68.8% | 50.0%                 |
-| Pick'em Hits (total) | 4     | —                     |
+| Advance Brier        | 0.201 | 0.250                 |
+| Advance Log-loss     | 0.590 | 0.693                 |
+| Advance Accuracy     | 75.0% | 50.0%                 |
+| Pick'em Hits (total) | 5     | —                     |
 
 ---
 
 ## Model Misses
 
-- **FURIA** (slot 0-3_pick_1): model gave 32.1% confidence -- did not hit.
-- **paiN_Gaming** (slot 0-3_pick_2): model gave 21.1% confidence -- did not hit.
-- **Team_Vitality** (slot 3-0_pick_1): model gave 48.5% confidence -- did not hit.
-- **G2_Esports** (slot advance_3): model gave 66.4% confidence -- did not hit.
-- **Aurora_Gaming** (slot advance_5): model gave 53.0% confidence -- did not hit.
-- **Team_Liquid** (slot advance_6): model gave 46.3% confidence -- did not hit.
+- **FURIA** (slot 0-3_pick_1): model gave 29.4% confidence -- did not hit.
+- **paiN_Gaming** (slot 0-3_pick_2): model gave 26.0% confidence -- did not hit.
+- **Team_Vitality** (slot 3-0_pick_1): model gave 47.0% confidence -- did not hit.
+- **G2_Esports** (slot advance_3): model gave 63.9% confidence -- did not hit.
+- **Legacy** (slot advance_6): model gave 40.9% confidence -- did not hit.
 
 ---
 
