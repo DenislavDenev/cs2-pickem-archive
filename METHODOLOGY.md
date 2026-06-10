@@ -8,7 +8,13 @@ Predict the 10-slot CS2 Major Swiss stage pick'em: 2 teams to go 3-0, 6 to advan
 
 ## Model Version
 
-Current: `bo1_edge_v6.1` (June 2026)
+Current: `bo1_edge_v7` (June 2026)
+
+- **v7** (2026-06-10): per-map results scraped from stage-page match popups
+  (new data layer, backfilled across all 5 covered Majors) and a map-pool
+  depth adjustment (see below). The same study documented two nulls:
+  optimal-assignment pick sheets (greedy is ~99.8% optimal) and
+  P(hits ≥ 5) threshold sheets (Swiss correlations too weak to exploit).
 
 - **v6** (2026-06-10): sigmoid scale 2.197 → 3.0, justified by a
   192-observation reliability study on resolved results (see Calibration).
@@ -40,6 +46,17 @@ history: it credits teams that systematically beat their rating against
 stronger opposition and docks teams that fold upward. Validated
 point-in-time on 8 modern-format stages: advance Brier 0.2172 → 0.2141,
 improvement on 6 of 8 stages.
+
+**Map-pool depth adjustment (v7, applied after the blend):** `edge += 0.10 × depth`
+on all-BO3 stages (Stage 3, Playoffs) and `0.05 × depth` otherwise, where
+depth is the cohort-centered fraction of the window's 7 most-played maps on
+which the team holds a recency-weighted map win rate ≥ 0.5 (365-day window,
+180-day half-life, minimum effective sample per map). Derived from per-map
+results parsed from Liquipedia match popups. Gate test at the
+pre-registered weight: advance Brier 0.2170 → 0.2157, log-loss
+0.6210 → 0.6187, monotone in the weight. Coverage at gate time was
+Majors-only; an event-page scraper extends coverage between Majors and the
+weight is re-tested before the next event.
 
 ---
 
@@ -119,3 +136,4 @@ Calibration data accumulates across Majors to enable future grid-search weight t
 | 2026-05-30 | Option A discovery | Curated page slugs instead of open-ended crawl; fail-closed |
 | 2026-06-10 | v6: sigmoid scale 2.197 → 3.0 | Reliability study on 192 resolved results showed compressed probabilities; Brier-optimal interior minimum at 3.0 on 3-stage-format Majors. Slot picks unaffected (ranking is scale-invariant) |
 | 2026-06-10 | v6.1: punch-up adjustment (w=0.10) | Elo residual vs stronger opposition from the full match graph; Brier 0.2172 → 0.2141 on 8 stages, 6/8 improved. Same study rejected a BO3/BO1 format split and a recent-form resume blend (both flat or worse) |
+| 2026-06-10 | v7: map-pool depth (w=0.10 BO3 stages / 0.05 otherwise) | Per-map data parsed from stage-page popups (691 rows, 5 Majors); Brier 0.2170 → 0.2157 at the pre-registered weight. Same study rejected optimal-assignment pick sheets (greedy ~99.8% optimal) and P(hits≥5) threshold sheets (correlations too weak) |
