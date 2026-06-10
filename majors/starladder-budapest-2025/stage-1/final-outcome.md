@@ -1,8 +1,8 @@
-> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-23, with the same model that powers the current Major's live predictions (bo1_edge_v6.1). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
+> **RETROACTIVE RELIABILITY TEST** -- This outcome grades a point-in-time reconstruction: the prediction above it was generated retroactively using only data available on 2025-11-23, with the same model that powers the current Major's live predictions (bo1_edge_v7). It exists to test that model's reliability on resolved results. It is not a pre-tournament prediction.
 
 # StarLadder Budapest Major 2025 -- Stage 1 Final Outcome
 
-_Scored: 2026-06-09 23:57 UTC_
+_Scored: 2026-06-10 12:29 UTC_
 
 ---
 
@@ -34,17 +34,17 @@ _Scored: 2026-06-09 23:57 UTC_
 | Slot       | Picked Team        | Result  |
 | ---------- | ------------------ | ------- |
 | 0-3_pick_1 | FlyQuest           | MISS    |
-| 0-3_pick_2 | RED_Canids         | MISS    |
+| 0-3_pick_2 | Imperial_Esports   | MISS    |
 | 3-0_pick_1 | Legacy             | MISS    |
 | 3-0_pick_2 | FaZe_Clan          | MISS    |
 | advance_1  | PARIVISION         | CORRECT |
 | advance_2  | Rare_Atom          | MISS    |
 | advance_3  | GamerLegion        | MISS    |
 | advance_4  | Lynn_Vision_Gaming | MISS    |
-| advance_5  | The_Huns_Esports   | MISS    |
-| advance_6  | M80                | MISS    |
+| advance_5  | B8                 | CORRECT |
+| advance_6  | The_Huns_Esports   | MISS    |
 
-**Total: 1 / 10**
+**Total: 2 / 10**
 
 ---
 
@@ -52,24 +52,23 @@ _Scored: 2026-06-09 23:57 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.288 | 0.250                 |
-| Advance Log-loss     | 0.774 | 0.693                 |
-| Advance Accuracy     | 31.2% | 50.0%                 |
-| Pick'em Hits (total) | 1     | —                     |
+| Advance Brier        | 0.290 | 0.250                 |
+| Advance Log-loss     | 0.780 | 0.693                 |
+| Advance Accuracy     | 37.5% | 50.0%                 |
+| Pick'em Hits (total) | 2     | —                     |
 
 ---
 
 ## Model Misses
 
-- **FlyQuest** (slot 0-3_pick_1): model gave 21.9% confidence -- did not hit.
-- **RED_Canids** (slot 0-3_pick_2): model gave 18.5% confidence -- did not hit.
-- **Legacy** (slot 3-0_pick_1): model gave 26.3% confidence -- did not hit.
-- **FaZe_Clan** (slot 3-0_pick_2): model gave 25.0% confidence -- did not hit.
-- **Rare_Atom** (slot advance_2): model gave 60.7% confidence -- did not hit.
-- **GamerLegion** (slot advance_3): model gave 56.5% confidence -- did not hit.
-- **Lynn_Vision_Gaming** (slot advance_4): model gave 53.0% confidence -- did not hit.
-- **The_Huns_Esports** (slot advance_5): model gave 52.7% confidence -- did not hit.
-- **M80** (slot advance_6): model gave 46.6% confidence -- did not hit.
+- **FlyQuest** (slot 0-3_pick_1): model gave 25.5% confidence -- did not hit.
+- **Imperial_Esports** (slot 0-3_pick_2): model gave 21.0% confidence -- did not hit.
+- **Legacy** (slot 3-0_pick_1): model gave 29.2% confidence -- did not hit.
+- **FaZe_Clan** (slot 3-0_pick_2): model gave 27.0% confidence -- did not hit.
+- **Rare_Atom** (slot advance_2): model gave 59.2% confidence -- did not hit.
+- **GamerLegion** (slot advance_3): model gave 56.4% confidence -- did not hit.
+- **Lynn_Vision_Gaming** (slot advance_4): model gave 56.3% confidence -- did not hit.
+- **The_Huns_Esports** (slot advance_6): model gave 50.6% confidence -- did not hit.
 
 ---
 
