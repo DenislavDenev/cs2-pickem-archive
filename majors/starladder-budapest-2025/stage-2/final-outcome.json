@@ -1,15 +1,15 @@
 {
   "calibration": {
-    "advance_accuracy": 0.625,
-    "advance_brier": 0.22461397728750002,
-    "advance_log_loss": 0.63879226427062,
-    "model_version": "bo1_edge_v6.1",
-    "pickem_0_3_hits": 2,
+    "advance_accuracy": 0.75,
+    "advance_brier": 0.22183286576250003,
+    "advance_log_loss": 0.6335127350786416,
+    "model_version": "bo1_edge_v7",
+    "pickem_0_3_hits": 1,
     "pickem_3_0_hits": 1,
-    "pickem_advance_hits": 3,
+    "pickem_advance_hits": 4,
     "pickem_total_hits": 6
   },
-  "scored_at": "2026-06-09T23:57:35.105686+00:00",
+  "scored_at": "2026-06-10T12:29:52.675143+00:00",
   "stage_name": "Stage 2",
   "standings": [
     {
