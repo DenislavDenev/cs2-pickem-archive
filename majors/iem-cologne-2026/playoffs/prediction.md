@@ -1,51 +1,42 @@
-# IEM Cologne Major 2026 -- Playoffs Projection
+# IEM Cologne Major 2026 -- Playoffs Prediction
 
-| Field | Value |
-|-------|-------|
-| Generated | 2026-06-06 11:05 UTC |
-| Stage start | 2026-06-21 (TBD precise time) |
-| Model version | bo1_edge_v5 |
-| Simulations | 100,000 |
-| Format | Single-elim, BO3 QF + SF, BO5 GF |
+| Field         | Value |
+|---------------|-------|
+| Generated     | 2026-06-16 11:13 UTC |
+| Playoff start | 2026-06-18 00:00 UTC |
+| Model version | bo1_edge_v7 |
+| Simulations   | 100,000 |
+| Format        | 8-team single-elim; QF/SF BO3, Final BO5 |
 
-> **PROJECTION (not locked)** -- this assumes the Stage 2 + Stage 3 model
-> picks both hit. The actual playoff field will be known after Stage 3
-> resolves on ~06-15; this prediction is updated automatically after each
-> upstream stage resolves.
+> This prediction will be locked at playoff start (2026-06-18 00:00 UTC).
 
 ---
 
-## Bracket
+## Bracket (as drawn)
 
-```
-QF: seed 1 vs seed 8     SF: QF1w vs QF4w     Final: SF1w vs SF2w (BO5)
-    seed 4 vs seed 5                          Champion is crowned
-    seed 2 vs seed 7     SF: QF2w vs QF3w
-    seed 3 vs seed 6
-```
+| Match | Teams                           | Feeds  |
+| ----- | ------------------------------- | ------ |
+| QF1   | Team_Spirit  vs  G2_Esports     | -> SF1 |
+| QF2   | Team_Falcons  vs  Team_Vitality | -> SF1 |
+| QF3   | Aurora_Gaming  vs  BetBoom_Team | -> SF2 |
+| QF4   | 9z_Team  vs  FURIA              | -> SF2 |
 
----
-
-## Projected outcomes
-
-| Seed | Team          | Champion | Finalist | SF (lost SF) | QF (lost QF) |
-| ---- | ------------- | -------- | -------- | ------------ | ------------ |
-| 1    | Team_Vitality | 45.4%    | 11.1%    | 31.7%        | 11.8%        |
-| 2    | Natus_Vincere | 9.1%     | 16.8%    | 36.9%        | 37.2%        |
-| 3    | Team_Spirit   | 18.9%    | 29.1%    | 21.7%        | 30.3%        |
-| 4    | Team_Falcons  | 13.5%    | 13.6%    | 34.8%        | 38.2%        |
-| 5    | FURIA         | 4.8%     | 6.3%     | 27.0%        | 61.8%        |
-| 6    | The_MongolZ   | 3.2%     | 9.1%     | 18.0%        | 69.7%        |
-| 7    | MOUZ          | 3.8%     | 10.0%    | 23.4%        | 62.8%        |
-| 8    | Aurora_Gaming | 1.5%     | 3.9%     | 6.5%         | 88.2%        |
+_Final (BO5): SF1 winner vs SF2 winner._
 
 ---
 
-## Top 3 by champion probability
+## Championship Projections
 
-- **Team_Vitality**: champion 45.4% / final 56.5%
-- **Team_Spirit**: champion 18.9% / final 48.0%
-- **Team_Falcons**: champion 13.5% / final 27.0%
+| Team          | Seed | P(Champion) | P(Final) | P(Semifinal+) | Edge Score |
+| ------------- | ---- | ----------- | -------- | ------------- | ---------- |
+| Team_Vitality | 3    | 39.9%       | 44.6%    | 57.6%         | 0.802      |
+| Team_Spirit   | 1    | 30.9%       | 36.1%    | 90.4%         | 0.731      |
+| Team_Falcons  | 4    | 11.6%       | 18.1%    | 42.4%         | 0.609      |
+| FURIA         | 2    | 8.3%        | 36.0%    | 60.4%         | 0.478      |
+| Aurora_Gaming | 5    | 3.5%        | 25.1%    | 54.3%         | 0.408      |
+| 9z_Team       | 6    | 3.2%        | 19.6%    | 39.6%         | 0.385      |
+| BetBoom_Team  | 8    | 2.2%        | 19.4%    | 45.7%         | 0.371      |
+| G2_Esports    | 7    | 0.5%        | 1.1%     | 9.6%          | 0.379      |
 
 ---
 
