@@ -1,6 +1,6 @@
 # Intel Extreme Masters/2026/Cologne -- Stage 3 Final Outcome
 
-_Scored: 2026-06-16 01:00 UTC_
+_Scored: 2026-06-16 11:17 UTC_
 
 ---
 
@@ -32,17 +32,17 @@ _Scored: 2026-06-16 01:00 UTC_
 | Slot       | Picked Team   | Result  |
 | ---------- | ------------- | ------- |
 | 0-3_pick_1 | Monte         | MISS    |
-| 0-3_pick_2 | PARIVISION    | CORRECT |
+| 0-3_pick_2 | G2 Esports    | MISS    |
 | 3-0_pick_1 | Team Vitality | MISS    |
 | 3-0_pick_2 | Team Falcons  | MISS    |
 | advance_1  | Team Spirit   | MISS    |
-| advance_2  | FURIA         | MISS    |
-| advance_3  | Aurora Gaming | CORRECT |
-| advance_4  | Natus Vincere | MISS    |
+| advance_2  | Natus Vincere | MISS    |
+| advance_3  | FURIA         | MISS    |
+| advance_4  | The MongolZ   | MISS    |
 | advance_5  | MOUZ          | MISS    |
-| advance_6  | 9z Team       | CORRECT |
+| advance_6  | Aurora Gaming | CORRECT |
 
-**Total: 3 / 10**
+**Total: 1 / 10**
 
 ---
 
@@ -50,22 +50,24 @@ _Scored: 2026-06-16 01:00 UTC_
 
 | Metric               | Value | Reference (coin-flip) |
 | -------------------- | ----- | --------------------- |
-| Advance Brier        | 0.140 | 0.250                 |
-| Advance Log-loss     | 0.426 | 0.693                 |
-| Advance Accuracy     | 75.0% | 50.0%                 |
-| Pick'em Hits (total) | 3     | —                     |
+| Advance Brier        | 0.210 | 0.250                 |
+| Advance Log-loss     | 0.592 | 0.693                 |
+| Advance Accuracy     | 56.2% | 50.0%                 |
+| Pick'em Hits (total) | 1     | —                     |
 
 ---
 
 ## Model Misses
 
-- **Monte** (slot 0-3_pick_1): model gave 39.8% confidence -- did not hit.
-- **Team Vitality** (slot 3-0_pick_1): model gave 57.9% confidence -- did not hit.
-- **Team Falcons** (slot 3-0_pick_2): model gave 32.2% confidence -- did not hit.
-- **Team Spirit** (slot advance_1): model gave 95.4% confidence -- did not hit.
-- **FURIA** (slot advance_2): model gave 84.2% confidence -- did not hit.
-- **Natus Vincere** (slot advance_4): model gave 56.0% confidence -- did not hit.
-- **MOUZ** (slot advance_5): model gave 52.4% confidence -- did not hit.
+- **Monte** (slot 0-3_pick_1): model gave 36.6% confidence -- did not hit.
+- **G2 Esports** (slot 0-3_pick_2): model gave 21.3% confidence -- did not hit.
+- **Team Vitality** (slot 3-0_pick_1): model gave 58.2% confidence -- did not hit.
+- **Team Falcons** (slot 3-0_pick_2): model gave 29.9% confidence -- did not hit.
+- **Team Spirit** (slot advance_1): model gave 87.8% confidence -- did not hit.
+- **Natus Vincere** (slot advance_2): model gave 73.1% confidence -- did not hit.
+- **FURIA** (slot advance_3): model gave 68.7% confidence -- did not hit.
+- **The MongolZ** (slot advance_4): model gave 50.5% confidence -- did not hit.
+- **MOUZ** (slot advance_5): model gave 50.1% confidence -- did not hit.
 
 ---
 
