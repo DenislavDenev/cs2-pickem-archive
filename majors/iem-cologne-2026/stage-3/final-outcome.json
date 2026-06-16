@@ -1,0 +1,113 @@
+{
+  "calibration": {
+    "advance_accuracy": 0.75,
+    "advance_brier": 0.13995360218750003,
+    "advance_log_loss": 0.42637897977576944,
+    "model_version": "bo1_edge_v7",
+    "pickem_0_3_hits": 1,
+    "pickem_3_0_hits": 0,
+    "pickem_advance_hits": 2,
+    "pickem_total_hits": 3
+  },
+  "scored_at": "2026-06-16T01:00:45.702998+00:00",
+  "stage_name": "Stage 3",
+  "standings": [
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "9z_Team",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Aurora_Gaming",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "B8",
+      "wins": 0
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "BetBoom_Team",
+      "wins": 3
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "FURIA",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "FUT_Esports",
+      "wins": 2
+    },
+    {
+      "losses": 2,
+      "status": "advanced-3-2",
+      "team": "G2_Esports",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Legacy",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "MOUZ",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-1-3",
+      "team": "Monte",
+      "wins": 1
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "Natus_Vincere",
+      "wins": 2
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-0-3",
+      "team": "PARIVISION",
+      "wins": 0
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Team_Falcons",
+      "wins": 3
+    },
+    {
+      "losses": 0,
+      "status": "3-0",
+      "team": "Team_Spirit",
+      "wins": 3
+    },
+    {
+      "losses": 1,
+      "status": "advanced-3-1",
+      "team": "Team_Vitality",
+      "wins": 3
+    },
+    {
+      "losses": 3,
+      "status": "eliminated-2-3",
+      "team": "The_MongolZ",
+      "wins": 2
+    }
+  ],
+  "tournament_id": "iem-cologne-2026"
+}
