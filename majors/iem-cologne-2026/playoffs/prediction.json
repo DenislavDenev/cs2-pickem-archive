@@ -1,75 +1,136 @@
 {
-  "field": [
+  "bracket": [
     {
-      "p_champion": 0.45364,
-      "p_finalist": 0.1109,
-      "p_quarterfinalist": 0.11848,
-      "p_semifinalist": 0.31698,
-      "seed": 1,
-      "team": "Team_Vitality"
+      "match": "QF1",
+      "teams": [
+        "Team_Spirit",
+        "G2_Esports"
+      ]
     },
     {
-      "p_champion": 0.09067,
-      "p_finalist": 0.16836,
-      "p_quarterfinalist": 0.37153,
-      "p_semifinalist": 0.36944,
-      "seed": 2,
-      "team": "Natus_Vincere"
+      "match": "QF2",
+      "teams": [
+        "Team_Falcons",
+        "Team_Vitality"
+      ]
     },
     {
-      "p_champion": 0.1886,
-      "p_finalist": 0.29117,
-      "p_quarterfinalist": 0.30301,
-      "p_semifinalist": 0.21722,
-      "seed": 3,
-      "team": "Team_Spirit"
+      "match": "QF3",
+      "teams": [
+        "Aurora_Gaming",
+        "BetBoom_Team"
+      ]
     },
     {
-      "p_champion": 0.13453,
-      "p_finalist": 0.1356,
-      "p_quarterfinalist": 0.38184,
-      "p_semifinalist": 0.34803,
-      "seed": 4,
-      "team": "Team_Falcons"
-    },
-    {
-      "p_champion": 0.04826,
-      "p_finalist": 0.06341,
-      "p_quarterfinalist": 0.61816,
-      "p_semifinalist": 0.27017,
-      "seed": 5,
-      "team": "FURIA"
-    },
-    {
-      "p_champion": 0.03218,
-      "p_finalist": 0.09118,
-      "p_quarterfinalist": 0.69699,
-      "p_semifinalist": 0.17965,
-      "seed": 6,
-      "team": "The_MongolZ"
-    },
-    {
-      "p_champion": 0.0376,
-      "p_finalist": 0.10024,
-      "p_quarterfinalist": 0.62847,
-      "p_semifinalist": 0.23369,
-      "seed": 7,
-      "team": "MOUZ"
-    },
-    {
-      "p_champion": 0.01452,
-      "p_finalist": 0.03914,
-      "p_quarterfinalist": 0.88152,
-      "p_semifinalist": 0.06482,
-      "seed": 8,
-      "team": "Aurora_Gaming"
+      "match": "QF4",
+      "teams": [
+        "9z_Team",
+        "FURIA"
+      ]
     }
   ],
-  "format": "single-elim, BO3 QF+SF, BO5 GF",
-  "generated_at": "2026-06-06T11:05:15.001043+00:00",
-  "is_projection": true,
-  "model_version": "bo1_edge_v5",
+  "generated_at": "2026-06-16T11:13:44.814276+00:00",
+  "model_version": "bo1_edge_v7",
+  "projections": [
+    {
+      "edge_score": 0.8018319462056591,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 2004.0469700144538,
+      "p_champion": 0.3989,
+      "p_finalist": 0.04705,
+      "p_quarterfinalist": 0.42438,
+      "p_semifinalist": 0.12967,
+      "seed": 3,
+      "team": "Team_Vitality",
+      "vrs_rank": 1
+    },
+    {
+      "edge_score": 0.7306639533809346,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1965.1026555159028,
+      "p_champion": 0.30911,
+      "p_finalist": 0.05235,
+      "p_quarterfinalist": 0.09619,
+      "p_semifinalist": 0.54235,
+      "seed": 1,
+      "team": "Team_Spirit",
+      "vrs_rank": 2
+    },
+    {
+      "edge_score": 0.608906777859851,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1893.3947621965497,
+      "p_champion": 0.11603,
+      "p_finalist": 0.06525,
+      "p_quarterfinalist": 0.57562,
+      "p_semifinalist": 0.2431,
+      "seed": 4,
+      "team": "Team_Falcons",
+      "vrs_rank": 3
+    },
+    {
+      "edge_score": 0.4782735933721457,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1828.4209080328442,
+      "p_champion": 0.08332,
+      "p_finalist": 0.27659,
+      "p_quarterfinalist": 0.39566,
+      "p_semifinalist": 0.24443,
+      "seed": 2,
+      "team": "FURIA",
+      "vrs_rank": 11
+    },
+    {
+      "edge_score": 0.40756567930619464,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1753.3619270540328,
+      "p_champion": 0.03485,
+      "p_finalist": 0.21578,
+      "p_quarterfinalist": 0.45664,
+      "p_semifinalist": 0.29273,
+      "seed": 5,
+      "team": "Aurora_Gaming",
+      "vrs_rank": 8
+    },
+    {
+      "edge_score": 0.3851531174351733,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1752.8769330264163,
+      "p_champion": 0.03152,
+      "p_finalist": 0.16444,
+      "p_quarterfinalist": 0.60434,
+      "p_semifinalist": 0.1997,
+      "seed": 6,
+      "team": "9z_Team",
+      "vrs_rank": 15
+    },
+    {
+      "edge_score": 0.37096577132812464,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1785.344042643385,
+      "p_champion": 0.02165,
+      "p_finalist": 0.17185,
+      "p_quarterfinalist": 0.54336,
+      "p_semifinalist": 0.26314,
+      "seed": 8,
+      "team": "BetBoom_Team",
+      "vrs_rank": 17
+    },
+    {
+      "edge_score": 0.3787956995177124,
+      "model_version": "bo1_edge_v7",
+      "normalized_elo": 1756.4201760994808,
+      "p_champion": 0.00462,
+      "p_finalist": 0.00669,
+      "p_quarterfinalist": 0.90381,
+      "p_semifinalist": 0.08488,
+      "seed": 7,
+      "team": "G2_Esports",
+      "vrs_rank": 13
+    }
+  ],
   "sim_count": 100000,
   "stage_name": "Playoffs",
+  "stage_start_at": "2026-06-18T00:00:00+00:00",
   "tournament_id": "iem-cologne-2026"
 }
